@@ -1,0 +1,209 @@
+body {
+      background-image: url(../img/philadelphia-76ers-logo-desktop-2023.png);
+      background-position: center;
+      background-attachment: fixed;
+      background-color: darkslateblue;
+      background-attachment: fixed;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1,
+h2 {
+      color: rgb(255, 255, 255);
+      text-align: center;
+      font-size: 2.0;
+}
+
+header {
+      width: 100%;
+
+}
+
+.logo {
+      color: bisque;
+      text-align: center;
+      font-size: 1.4em;
+}
+
+.nav {
+      color: bisque;
+      text-align: center;
+      font-size: 1.4em;
+}
+
+.banner {
+      width: 100%;
+      padding-top: 10%;
+}
+
+.containeir {
+      background-color: aqua;
+      width: 80%;
+      margin: auto;
+}
+
+footer {
+
+      color: blueviolet;
+      font-size: 1.3em;
+      text-align: center;
+}
+
+.fundo {
+      text-align: center;
+      font-size: 1.4em;
+}
+
+p {
+      padding-top: 1%;
+      padding-bottom: 0.5%;
+      line-height: 1.7;
+      font-size: 1.2em;
+      color: rgb(255, 255, 255);
+}
+
+.listameio,
+li {
+      line-height: 2;
+      font-size: 1.2em;
+      text-align: center;
+}
+
+section {
+
+      padding-left: 2%;
+      padding-right: 2%;
+      color: rgb(255, 255, 255);
+}
+
+.icone {
+      width: 2%;
+}
+
+.imgdireita {
+      float: right;
+}
+
+.imgtam {
+      width: 30%;
+      margin-left: 2%;
+}
+
+.linha {
+      display: flex;
+      flex-flow: row wrap;
+      text-align: center;
+}
+
+.col-6 {
+      width: 25%;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+      .linha {
+            flex-direction: column;
+      }
+
+      .col-6 {
+            width: 100%;
+      }
+}
+
+
+
+.imagem-card {
+      background-image: linear-gradient(to right, #0b51c2, #60abd4);
+      width: 90%;
+      border-style: double;
+      border-color: #ff0000;
+      border-width: 5px;
+      box-shadow: 15px 15px 15px 2px rgb(255, 255, 255);
+      transition: 0.3s;
+
+}
+
+.card {
+      background-image: linear-gradient(to right, #0b51c2, #60abd4);
+      width: 90%;
+      box-shadow: 15px 15px 15px 2px rgb(255, 255, 255);
+      transition: 0.3s;
+      border-style: double;
+      border-color: #ff0000;
+      border-width: 5px;
+}
+
+.github {
+      width: 15%;
+}
+
+table {
+      font-family: Arial, Helvetica, sans-serif;
+      width: 100%;
+      border-collapse: collapse;
+}
+
+th,
+td {
+      border: 1px solid rgb(255, 255, 255);
+      text-align: left;
+      padding 8px
+}
+
+a {
+      color: rgb(255, 255, 255);
+}
+
+.logo-topo {
+      width: 100%;
+}
+
+.itens_menu {
+      line-height: 1, 5;
+      text-align: center;
+}
+
+.itens_menu ul li {
+      display: inline;
+      margin-left: 1%;
+}
+
+.itens_menu a {
+      font-size: 1.0em;
+      padding-left: 0.1%;
+
+}
+
+.itens_menu a:hover {
+      color: #fff;
+      padding: 0.8%;
+      text-decoration: none;
+      border-radius: 15%;
+}
+
+.itens_menu a:active {
+      color: #fff;
+      text-decoration: none;
+}
+
+
+.logo {
+      padding-top: 1%;
+      padding-bottom: 1%;
+      text-align: left;
+      width: 5%;
+}
+
+header {
+      flex-direction: row;
+      position: relative;
+      background-color: #6385bc;
+}
+
+.fixo {
+      position: fixed;
+      top: 0%;
+      right: 0%;
+      left: 0%;
+      z-index: 1;
+}
